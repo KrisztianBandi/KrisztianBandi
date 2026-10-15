@@ -1,0 +1,56 @@
+@font-face{
+    background-color: #212121;
+    font-family: 'pixelta';
+    src: url(/assets/Pixelta.ttf);
+}
+body{
+    font-family: pixelta;
+    background-color: #111111;
+    color: white;
+}
+a:active, a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+a:hover{
+    font-size: 42px;
+    text-decoration: underline;
+}
+.header{
+    text-align: center;
+    background-color: #202020;
+}
+.header h1{
+    text-align: center;
+    margin-top: 25px;
+}
+#logo{
+    width: 90px;
+}
+#logo:hover{
+    width: 90px;
+}
+.weblap{
+    margin: 20px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#center{
+    text-align: center;
+    font-family: pixelta;
+    margin-bottom: 20px;
+}
+.weblap p{
+    font-size: 20px;
+    margin: 0px;
+}
+#pfp{
+    border-radius: 100px;
+    width: 70%;
+    margin-left: 100px;
+}
+#szoveglink{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
